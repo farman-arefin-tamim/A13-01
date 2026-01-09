@@ -31,7 +31,7 @@ nav{
     align-items: center;
     justify-content: space-around;
     text-align: center;
-    
+    padding-bottom: 10px;
 }
 
 .primary-btn{
@@ -43,6 +43,21 @@ nav{
     font-weight: bold;
     color: aliceblue;
     cursor: pointer;
+}
+
+.primary-btn:hover{
+    background-color: #FFFFFF;
+    color: #30B868;
+}
+
+
+.secondary-btn{
+    padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    border: 1px solid #d0d0d0;
+    font-weight: bold;
+    gap: 15px;
+    color: #333;
 }
 
 #hero-section{
@@ -90,7 +105,7 @@ nav{
 }
 
 
-#hero-section .special-btn{
+.special-btn{
     background-color: #FFFFFF ;
     padding: 8px 12px 8px 12px;
     width: 229px;
@@ -99,6 +114,10 @@ nav{
     color: #469165;
 }
 
+.special-btn:hover{
+    background-color: #30B868;
+    color: #FFFFFF;
+}
 
 
 #solution-section{
@@ -118,6 +137,11 @@ nav{
     gap: 60px;
 }
 
+#solution-section ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
 
 #solution-section li{
     list-style-type: none;
@@ -136,6 +160,19 @@ nav{
     font-size: 15px;
 }
 
+#solution-section .solution-text h1{
+    color: #001931;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+
+#solution-section .solution-text p,li{
+    color: #627382;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 10px;
+}
 
 
 #challenge-part{
@@ -155,6 +192,20 @@ nav{
 #challenge-part .section-heading h2,p{
     margin-bottom: 25px;
 }
+
+#challenge-part .section-heading h2{
+    color: #001931;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#challenge-part .section-heading p{
+    color: #627382;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
 
   
 #challenge-part .section-heading .challenge-part-p{
@@ -202,15 +253,21 @@ nav{
     max-width: 322px;
     box-shadow: 0 0 8px 0 #0000008a;
 }
-
+#card-section .card-box .card .circle{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
 
 .card img{
     width: 32px;
     height: 32px;
-    justify-content: center;
-    align-items: center;
-    border: 30px solid red;
-    border-radius: 50px;
+    object-fit: contain;
 }
 
 
