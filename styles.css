@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 .font-open-sans{
   font-family: "Open Sans", sans-serif;
@@ -11,8 +10,11 @@
 
 header{
     padding-top: 16px;
+    width: 100vw;
 }
-
+body{
+    overflow-x: hidden;
+}
 nav{
     width: 1517px;
     max-width: 1600px;
@@ -44,13 +46,60 @@ nav .nav-text{
 #hero-section{
     justify-content: center;
     background: url('./assets/hero-bg.png');
+    background-size: cover;
+    width: 100vw;
+    max-width: 1600px;
+    height: 100vh;
+    max-height: 674px;
     background-repeat: no-repeat;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #hero-section p{
     color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
+
+
+
+
+#solution-section{
+    width: 1360px;
+    height: 600px;
+    margin:120px 120px ;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#solution-section img{
+    height: 600px;
+    width: 600px;
+    border-radius: 12px;
+    gap: 50px;
+}
+
+
+#solution-section li{
+    list-style-type: none;
+}
+#solution-section li img{
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
 
 #challenge-part{
     margin: 120px;
@@ -92,13 +141,35 @@ nav .nav-text{
 
 
 .card img{
-    width: 60px;
+    width: 32px;
+    height: 32px;
     justify-content: center;
     align-items: center;
     border: 30px solid red;
     border-radius: 50px;
 }
 
+
+
+
+footer{
+    width: 100vw;
+    height: 350px;
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+}
+
+
+
+footer hr{
+    color: rgba(247, 241, 241, 0.952);
+    height: 0px;
+}
+
+footer p{
+    text-align: center;
+    color: #F7F6F2;
+}
 /* .nav-section{
     display: flex;
     justify-content: space-around;
@@ -132,7 +203,7 @@ nav .nav-text{
 
 
 
-.hero-section{
+/* .hero-section{
     background-image: url('./assets/hero-bg.png');
     background-repeat: no-repeat;
-}
+} */
