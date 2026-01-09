@@ -59,13 +59,33 @@ nav{
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+    padding: 160px 120px 160px 120px;
 }
+
+#hero-section .hero-h1{
+    color: aliceblue;
+    font-size: 72px;
+    line-height: 84px;
+    font-weight: 700;
+}
+
+#hero-section .hero-h2{
+    color: #30B868;
+    font-size: 75px;
+    line-height: 84px;
+    font-weight: 700;
+}
+
+
 
 #hero-section p{
     color: aliceblue;
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
 
 }
 
@@ -95,7 +115,7 @@ nav{
     height: 600px;
     width: 600px;
     border-radius: 12px;
-    gap: 50px;
+    gap: 60px;
 }
 
 
@@ -110,7 +130,11 @@ nav{
 }
 
 
-
+#solution-section .solution-text h5{
+    color: #30B868;
+    font-weight: 500;
+    font-size: 15px;
+}
 
 
 
@@ -132,11 +156,38 @@ nav{
     margin-bottom: 25px;
 }
 
+  
+#challenge-part .section-heading .challenge-part-p{
+    padding-top: 20px;
+}
 
 #card-section{
     text-align: center;
     margin: 0px auto;
 }
+
+#card-section h1{
+    color: #001931;
+    font-weight: 700;
+    font-size: 48px;
+    padding-bottom: 5px;
+}
+
+#card-section h3{
+    color: #001931;
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#card-section p{
+    color: #627382;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
 
 #card-section .card-box{
     display: flex;
