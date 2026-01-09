@@ -57,7 +57,8 @@ nav{
     border: 1px solid #d0d0d0;
     font-weight: bold;
     gap: 15px;
-    color: #333;
+    color: #FFFFFF;
+    background-color: transparent;
 }
 
 #hero-section{
@@ -247,11 +248,13 @@ nav{
     gap: 24px;
 }
 
-
-#card-section .card-box .card{
+.card{
     padding: 24px;
     max-width: 322px;
     box-shadow: 0 0 8px 0 #0000008a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #card-section .card-box .card .circle{
     width: 60px;
