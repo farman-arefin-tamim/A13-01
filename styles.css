@@ -61,6 +61,11 @@ nav{
     background-color: transparent;
 }
 
+.secondary-btn:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
 #hero-section{
     justify-content: center;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
@@ -255,6 +260,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 #card-section .card-box .card .circle{
     width: 60px;
