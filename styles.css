@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 .font-open-sans{
   font-family: "Open Sans", sans-serif;
@@ -26,6 +27,7 @@ nav .nav-text{
     list-style-type: none;
     gap: 32px;
     align-items: center;
+    
 }
 
 .primary-btn{
@@ -43,11 +45,60 @@ nav .nav-text{
     justify-content: center;
     background: url('./assets/hero-bg.png');
     background-repeat: no-repeat;
+    text-align: center;
 }
 
 #hero-section p{
     color: aliceblue;
 }
+
+#challenge-part{
+    margin: 120px;
+}
+
+#challenge-part .section-heading{
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    text-align: center;
+    max-width: 1360px;
+
+}
+
+#challenge-part .section-heading h2,p{
+    margin-bottom: 25px;
+}
+
+
+#card-section{
+    text-align: center;
+    margin: 0px auto;
+}
+
+#card-section .card-box{
+    display: flex;
+    margin-right: 120px;
+    margin-left: 120px;
+    gap: 24px;
+}
+
+
+#card-section .card-box .card{
+    padding: 24px;
+    max-width: 322px;
+    box-shadow: 0 0 8px 0 #0000008a;
+}
+
+
+.card img{
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    border: 30px solid red;
+    border-radius: 50px;
+}
+
 /* .nav-section{
     display: flex;
     justify-content: space-around;
